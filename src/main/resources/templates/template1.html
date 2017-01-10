@@ -14,12 +14,15 @@
 
 <header>
 
-	<div class="navbar navbar-default">
+	<div class="navbar navbar-inverse">
 		<div class="container-fluid">
-			<ul class="navbar navbar-nav">
-				<a th:href="@{/operations}">Operations</a>
-				<a th:href="@{/comptes}">Comptes</a>
-				<a th:href="@{/clients}">Clients</a>
+			<ul class="nav navbar-nav">
+				<li><a th:href="@{/operations}">Operations</a></li>
+				<li><a th:href="@{/comptes}">Comptes</a></li>
+				<li><a th:href="@{/clients}">Clients</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" >
+			<li><a th:href="@{/login?logout}">Logout</a></li>
 			</ul>
 		</div>
 	</div>
