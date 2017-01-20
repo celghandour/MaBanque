@@ -17,14 +17,14 @@ public class BanqueController {
 	@Autowired
 	private IBanqueMetier banqueMetier ; 
 	
-	@RequestMapping("operations")
+	@RequestMapping("/operations")
 	public String index(){
 		
 		return "comptes";
 		
 	}
 	
-	@RequestMapping("consulterCompte")
+	@RequestMapping("/consulterCompte")
 	public String consulter(Model model ,String codeCompte,
 			
 			@RequestParam(name="page",defaultValue="0")int page,

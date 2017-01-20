@@ -53,6 +53,8 @@ public class VotreBanqueApplication implements CommandLineRunner {
 	@Override
 	public void run(String... arg0) throws Exception {
 		
+		
+		//avec autoWired  on peut aussi faire avec getbean 
 //		Client c1 = clientRepository.save(new Client("Hassan","hassan@gmail.com"));
 //		Client c2 = clientRepository.save(new Client("rachid","rachid@gmail.com"));
 //		
