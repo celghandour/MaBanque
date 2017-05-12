@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BanqueController {
-	//Attributes for  BanqueController
+	//Attributes for  BanqueController edit with smartgit
 	@Autowired
 	private IBanqueMetier banqueMetier ; 
 	
