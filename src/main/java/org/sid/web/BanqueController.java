@@ -13,12 +13,20 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class BanqueController {
-	
+	//Attributes for  BanqueController
 	@Autowired
 	private IBanqueMetier banqueMetier ; 
 	
 	@RequestMapping("/operations")
 	public String index(){
+		
+		return "comptes";
+		
+	}
+
+
+	@RequestMapping("/operations1")
+	public String index1(){
 		
 		return "comptes";
 		
